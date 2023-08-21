@@ -1,4 +1,5 @@
 #Personal Testing Or Directories to not Push to git
+**/workspace/**
 **/dumps/**
 **/test/**
 
