@@ -1,6 +1,6 @@
 
 
-def builtin_role_global_admin(x: str):
+def aad_role_global_admin(x: str):
     logic_json = {
         "query": f"""
         AuditLogs
@@ -15,7 +15,7 @@ def builtin_role_global_admin(x: str):
         "attackId": "T1098.003",
         "dataSource": "Role_Management",
         "platform": "Azure_Active_Directory",
-        "deployGroup": "AAD_Directories_All",
+        "deployGroup": "AAD_All",
         "author": "Detection_Engineering",
         "detectCon": "4",
         "type": "simple_pattern_match",
@@ -31,7 +31,7 @@ def builtin_role_global_admin(x: str):
     return logic_json
 
 
-def builtin_role_privileged_role_admin(x: str):
+def aad_role_privileged_role_admin(x: str):
     logic_json = {
         "query": f"""
         AuditLogs
@@ -46,7 +46,7 @@ def builtin_role_privileged_role_admin(x: str):
         "attackId": "T1098.003",
         "dataSource": "Role_Management",
         "platform": "Azure_Active_Directory",
-        "deployGroup": "AAD_Directories_All",
+        "deployGroup": "AAD_All",
         "author": "Detection_Engineering",
         "detectCon": "4",
         "type": "simple_pattern_match",
@@ -62,7 +62,7 @@ def builtin_role_privileged_role_admin(x: str):
     return logic_json
 
 
-def builtin_role_billing_admin(x: str):
+def aad_role_billing_admin(x: str):
     logic_json = {
         "query": f"""
         AuditLogs
@@ -77,7 +77,7 @@ def builtin_role_billing_admin(x: str):
         "attackId": "T1098.003",
         "dataSource": "Role_Management",
         "platform": "Azure_Active_Directory",
-        "deployGroup": "AAD_Directories_All",
+        "deployGroup": "AAD_All",
         "author": "Detection_Engineering",
         "detectCon": "4",
         "type": "simple_pattern_match",
@@ -93,7 +93,7 @@ def builtin_role_billing_admin(x: str):
     return logic_json
 
 
-def builtin_role_domain_name_admin(x: str):
+def aad_role_domain_name_admin(x: str):
     logic_json = {
         "query": f"""
         AuditLogs
@@ -108,7 +108,7 @@ def builtin_role_domain_name_admin(x: str):
         "attackId": "T1098.003",
         "dataSource": "Role_Management",
         "platform": "Azure_Active_Directory",
-        "deployGroup": "AAD_Directories_All",
+        "deployGroup": "AAD_All",
         "author": "Detection_Engineering",
         "detectCon": "4",
         "type": "simple_pattern_match",
@@ -124,7 +124,7 @@ def builtin_role_domain_name_admin(x: str):
     return logic_json
 
 
-def builtin_role_directory_writer(x: str):
+def aad_role_directory_writer(x: str):
     logic_json = {
         "query": f"""
         AuditLogs
@@ -139,7 +139,7 @@ def builtin_role_directory_writer(x: str):
         "attackId": "T1098.003",
         "dataSource": "Role_Management",
         "platform": "Azure_Active_Directory",
-        "deployGroup": "AAD_Directories_All",
+        "deployGroup": "AAD_All",
         "author": "Detection_Engineering",
         "detectCon": "4",
         "type": "simple_pattern_match",
@@ -155,7 +155,7 @@ def builtin_role_directory_writer(x: str):
     return logic_json
 
 
-def builtin_role_privileged_auth_admin(x: str):
+def add_role_privileged_auth_admin(x: str):
     logic_json = {
         "query": f"""
         AuditLogs
@@ -170,7 +170,7 @@ def builtin_role_privileged_auth_admin(x: str):
         "attackId": "T1098.003",
         "dataSource": "Role_Management",
         "platform": "Azure_Active_Directory",
-        "deployGroup": "AAD_Directories_All",
+        "deployGroup": "AAD_All",
         "author": "Detection_Engineering",
         "detectCon": "4",
         "type": "simple_pattern_match",
@@ -186,7 +186,7 @@ def builtin_role_privileged_auth_admin(x: str):
     return logic_json
 
 
-def builtin_role_groups_admin(x: str):
+def add_role_groups_admin(x: str):
     logic_json = {
         "query": f"""
         AuditLogs
@@ -201,7 +201,7 @@ def builtin_role_groups_admin(x: str):
         "attackId": "T1098.003",
         "dataSource": "Role_Management",
         "platform": "Azure_Active_Directory",
-        "deployGroup": "AAD_Directories_All",
+        "deployGroup": "AAD_All",
         "author": "Detection_Engineering",
         "detectCon": "4",
         "type": "simple_pattern_match",
@@ -217,7 +217,7 @@ def builtin_role_groups_admin(x: str):
     return logic_json
 
 
-def builtin_role_user_admin(x: str):
+def aad_role_user_admin(x: str):
     logic_json = {
         "query": f"""
         AuditLogs
@@ -232,7 +232,7 @@ def builtin_role_user_admin(x: str):
         "attackId": "T1098.003",
         "dataSource": "Role_Management",
         "platform": "Azure_Active_Directory",
-        "deployGroup": "AAD_Directories_All",
+        "deployGroup": "AAD_All",
         "author": "Detection_Engineering",
         "detectCon": "4",
         "type": "simple_pattern_match",
@@ -248,7 +248,7 @@ def builtin_role_user_admin(x: str):
     return logic_json
 
 
-def builtin_role_app_admin(x: str):
+def aad_role_app_admin(x: str):
     logic_json = {
         "query": f"""
         AuditLogs
@@ -263,7 +263,7 @@ def builtin_role_app_admin(x: str):
         "attackId": "T1098.003",
         "dataSource": "Role_Management",
         "platform": "Azure_Active_Directory",
-        "deployGroup": "AAD_Directories_All",
+        "deployGroup": "AAD_All",
         "author": "Detection_Engineering",
         "detectCon": "4",
         "type": "simple_pattern_match",
@@ -279,7 +279,7 @@ def builtin_role_app_admin(x: str):
     return logic_json
 
 
-def builtin_role_auth_admin(x: str):
+def aad_role_auth_admin(x: str):
     logic_json = {
         "query": f"""
         AuditLogs
@@ -294,7 +294,7 @@ def builtin_role_auth_admin(x: str):
         "attackId": "T1098.003",
         "dataSource": "Role_Management",
         "platform": "Azure_Active_Directory",
-        "deployGroup": "AAD_Directories_All",
+        "deployGroup": "AAD_All",
         "author": "Detection_Engineering",
         "detectCon": "4",
         "type": "simple_pattern_match",
@@ -310,7 +310,7 @@ def builtin_role_auth_admin(x: str):
     return logic_json
 
 
-def builtin_role_auth_policy_admin(x: str):
+def aad_role_auth_policy_admin(x: str):
     logic_json = {
         "query": f"""
         AuditLogs
@@ -325,7 +325,7 @@ def builtin_role_auth_policy_admin(x: str):
         "attackId": "T1098.003",
         "dataSource": "Role_Management",
         "platform": "Azure_Active_Directory",
-        "deployGroup": "AAD_Directories_All",
+        "deployGroup": "AAD_All",
         "author": "Detection_Engineering",
         "detectCon": "4",
         "type": "simple_pattern_match",
@@ -341,7 +341,7 @@ def builtin_role_auth_policy_admin(x: str):
     return logic_json
 
 
-def builtin_role_cloud_app_admin(x: str):
+def aad_role_cloud_app_admin(x: str):
     logic_json = {
         "query": f"""
         AuditLogs
@@ -356,7 +356,7 @@ def builtin_role_cloud_app_admin(x: str):
         "attackId": "T1098.003",
         "dataSource": "Role_Management",
         "platform": "Azure_Active_Directory",
-        "deployGroup": "AAD_Directories_All",
+        "deployGroup": "AAD_All",
         "author": "Detection_Engineering",
         "detectCon": "4",
         "type": "simple_pattern_match",
