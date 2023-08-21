@@ -13,7 +13,7 @@ def domain_trust(x: str):
         "attackId": "T1482",
         "dataSource": "Audit_Log_B2C",
         "platform": "Azure_Active_Directory",
-        "deployGroup": "AAD_Directories_All",
+        "deployGroup": "AAD_All",
         "author": "Detection_Engineering",
         "detectCon": "3",
         "type": "simple_pattern_match",
