@@ -1,11 +1,11 @@
-#Personal Testing
+#Personal Testing Or Directories to not Push to git
 **/dumps/**
 **/test/**
 
-#Environment Variables
+#Environment Variables via Dot-Env Loads
 **.env
 
-#Don't Push Data to Github
+#Don't Push Data Dumps to Github
 **.csv
 **.json
 
@@ -24,7 +24,6 @@ __pycache__/**
 .ipynb_checkpoints
 **/.ipynb_checkpoints
 .ipynb_checkpoints/**
-**.ipynb
 
 
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
