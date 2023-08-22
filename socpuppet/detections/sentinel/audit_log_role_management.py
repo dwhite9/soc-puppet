@@ -370,4 +370,3 @@ def aad_role_cloud_app_admin(x: str):
     }
 
     return logic_json
-
