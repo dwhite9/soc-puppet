@@ -1,0 +1,1 @@
+from socpuppet.detections.sentinel_active_directory.security_event_domain_controllers import *
