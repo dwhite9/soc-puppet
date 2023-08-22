@@ -1,0 +1,4 @@
+from socpuppet.detections.sentinel_google_workspace.admin_activity_delegated_admin import *
+from socpuppet.detections.sentinel_google_workspace.admin_activity_user import *
+from socpuppet.detections.sentinel_google_workspace.admin_activity_domain import *
+
