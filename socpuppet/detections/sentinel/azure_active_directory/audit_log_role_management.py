@@ -155,7 +155,7 @@ def aad_role_directory_writer(x: str):
     return logic_json
 
 
-def add_role_privileged_auth_admin(x: str):
+def aad_role_privileged_auth_admin(x: str):
     logic_json = {
         "query": f"""
         AuditLogs
