@@ -7,3 +7,4 @@ from socpuppet.detections.sentinel.gws_admin_activity_delegated_admin import *
 from socpuppet.detections.sentinel.gws_admin_activity_domain import *
 from socpuppet.detections.sentinel.gws_admin_activity_user import *
 from socpuppet.detections.sentinel.security_event_domain_controllers import *
+
